@@ -1,5 +1,5 @@
 from fastapi import APIRouter, Path, Query
-from src.config.converter import sync_converter, async_converter
+from config.converter import sync_converter, async_converter
 from asyncio import gather
 
 router = APIRouter(prefix='/converter')
